@@ -30,39 +30,39 @@ nav a:hover {
     text-decoration: none;
 }
 .book, .join {
-          background-color: rgb(26, 156, 243);
+          background-color: rgb(240, 174, 174);
           color: white;
           text-decoration: none;
 }
 .book:hover, .join:hover {
-    background-color: rgb(224, 111, 4);
+    background-color: rgb(116, 48, 48);
     color: white;
 }
 #background {
-    background-color: rgb(218, 196, 209);
+    background-color: rgb(245, 99, 189);
 }
 .msg {
-    background-color: rgb(218, 190, 169);
+    background-color: rgb(236, 109, 5);
     color: black;
 }
 footer {
-    background-color: rgb(158, 173, 177);
+    background-color: rgb(137, 241, 77);
 }
 .home-title {
-    color: rgb(89, 139, 231);
+    color: cornflowerblue;
 }
 h4 {
-    color: rgb(48, 9, 155);
+    color: rgb(137, 241, 77);
 }
 footer h3 {
-    color: rgb(100, 99, 12);
+    color: black;
 }
 footer a {
     color: blue;
     text-decoration: none;
 }
 footer a:hover {
-    color: rgb(238, 118, 20);
+    color: red;
 }
 .logo {
     width: 80px;
