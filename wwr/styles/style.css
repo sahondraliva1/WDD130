@@ -4,8 +4,8 @@
 }
 nav a {
     text-align: center;
-    color: blue;
- 
+    color: rgb(115, 187, 235);
+    text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -27,11 +27,11 @@ header {
 }
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: white;
     text-decoration: none;
 }
 .book, .join {
-     background-color: rgb(174, 238, 240);
+     background-color: rgb(54, 215, 243);
      color: white;
      text-decoration: none;
 }
@@ -53,20 +53,20 @@ footer {
     color: cornflowerblue;
 }
 h1 {
-    color: rgb(140, 231, 247);
+    color: rgb(41, 204, 233);
 }
 h4 {
-    color: rgb(245, 52, 181);
+    color: rgb(87, 39, 150);
 }
 footer h3 {
-    color: rgb(52, 126, 52);
+    color: rgba(55, 94, 24, 0.938);
 }
 footer a {
     color: blue;
     text-decoration: none;
 }
 footer a:hover {
-    color: red;
+    color: white;
 }
 .logo {
     width: 80px;
