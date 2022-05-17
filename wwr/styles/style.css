@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Alfa+Slab+One&family=Cinzel:wght@600&family=Hind:wght@300&family=Nunito&family=Permanent+Marker&family=Play&family=Rajdhani:wght@700&family=Skranji&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,9 @@ nav a {
     text-align: center;
     color: rgb(115, 187, 235);
     text-decoration: none;
+    font-family: Acme;
+    padding: 35px;
+
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -21,6 +25,9 @@ main section {
 }
 body {
     background-color: #fcfbfb; 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -34,6 +41,11 @@ nav a:hover {
      background-color: rgb(54, 215, 243);
      color: white;
      text-decoration: none;
+     font-family: acme;
+     font-size: 18px;
+     padding: 15px 30px;
+     margin-top: 50px;
+     border-radius : 5px;
 }
 .book:hover, .join:hover {
     background-color: blue;
@@ -41,29 +53,43 @@ nav a:hover {
 }
 #background {
     background-color: rgb(221, 204, 215);
+    margin-bottom: 50px;
 }
 .msg {
     background-color: rgb(236, 207, 200);
     color: black;
-}
+    font-family: hind;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 50px;
+ }
 footer {
     background-color: rgb(167, 172, 164);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: cornflowerblue;
+    font-family: acme;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h1 {
     color: rgb(41, 204, 233);
 }
 h4 {
     color: rgb(87, 39, 150);
+    font-family: cinzel;
 }
 footer h3 {
     color: rgba(55, 94, 24, 0.938);
+    font-family: Hind;
 }
 footer a {
     color: blue;
     text-decoration: none;
+    font-family: acme;
+    margin-top: 200px;
 }
 footer a:hover {
     color: white;
@@ -73,7 +99,38 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+.msg h2 {
+    font-family: Skranji;
+}
+h2 {
+    font-family: cinzel;
+    margin: 0;
+}
+.msg p {
+   font-size: .8em;
+   padding-bottom: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+} 
+#logo_link {
+     padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+   margin: 200px 0;
+}
+.card-img {
+    border: 10px rgb(236, 207, 200);
+    border: #f8d1d1;
+}
+main section img {
+    box-sizing: border-box;
 }
