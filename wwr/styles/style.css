@@ -5,7 +5,7 @@
 }
 nav a {
     text-align: center;
-    color: rgb(115, 187, 235);
+    color: rgb(236, 239, 241);
     text-decoration: none;
     font-family: Acme;
     padding: 35px;
@@ -34,11 +34,11 @@ header {
 }
 nav a:hover {
     background-color: black;
-    color: white;
+    color: rgb(122, 184, 212);
     text-decoration: none;
 }
 .book, .join {
-     background-color: rgb(54, 215, 243);
+     background-color: rgb(238, 160, 190);
      color: white;
      text-decoration: none;
      font-family: acme;
@@ -48,15 +48,15 @@ nav a:hover {
      border-radius : 5px;
 }
 .book:hover, .join:hover {
-    background-color: blue;
-    color: white;
+    background-color: rgb(61, 64, 65);
+    color: rgb(245, 210, 210);
 }
 #background {
-    background-color: rgb(221, 204, 215);
+    background-color: rgb(163, 115, 147);
     margin-bottom: 50px;
 }
 .msg {
-    background-color: rgb(236, 207, 200);
+    background-color: rgb(156, 124, 116);
     color: black;
     font-family: hind;
     line-height: 1.5em;
@@ -64,7 +64,7 @@ nav a:hover {
     margin-top: 50px;
  }
 footer {
-    background-color: rgb(167, 172, 164);
+    background-color: rgb(156, 124, 116);
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -82,11 +82,11 @@ h4 {
     font-family: cinzel;
 }
 footer h3 {
-    color: rgba(55, 94, 24, 0.938);
+    color: rgba(247, 242, 242, 0.938);
     font-family: Hind;
 }
 footer a {
-    color: blue;
+    color: rgb(238, 160, 190);
     text-decoration: none;
     font-family: acme;
     margin-top: 200px;
@@ -110,10 +110,12 @@ footer a:hover {
 h2 {
     font-family: cinzel;
     margin: 0;
+    color: rgb(248, 246, 244);
 }
 .msg p {
    font-size: .8em;
    padding-bottom: 15px;
+   color: rgb(226, 222, 216);
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
@@ -128,7 +130,7 @@ footer .social img {
    margin: 200px 0;
 }
 .card-img {
-    border: 10px rgb(236, 207, 200);
+    border: 10px solid rgb(236, 207, 200);
 }
 main section img {
     box-sizing: border-box;
