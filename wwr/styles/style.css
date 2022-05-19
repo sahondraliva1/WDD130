@@ -49,7 +49,7 @@ nav a:hover {
 }
 .book:hover, .join:hover {
     background-color: rgb(61, 64, 65);
-    color: rgb(245, 210, 210);
+    color: rgb(110, 222, 241);
 }
 #background {
     background-color: rgb(163, 115, 147);
