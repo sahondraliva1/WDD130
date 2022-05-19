@@ -38,8 +38,8 @@ nav a:hover {
     text-decoration: none;
 }
 .book, .join {
-     background-color: rgb(238, 160, 190);
-     color: white;
+     background-color: rgb(188, 187, 243);
+     color: rgb(31, 6, 139);
      text-decoration: none;
      font-family: acme;
      font-size: 18px;
@@ -48,8 +48,8 @@ nav a:hover {
      border-radius : 5px;
 }
 .book:hover, .join:hover {
-    background-color: rgb(61, 64, 65);
-    color: rgb(110, 222, 241);
+    background-color: rgb(76, 109, 124);
+    color: white;
 }
 #background {
     background-color: rgb(163, 115, 147);
