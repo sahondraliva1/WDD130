@@ -7,7 +7,7 @@ nav a {
     text-align: center;
     color: rgb(236, 239, 241);
     text-decoration: none;
-    font-family: Acme;
+    font-family: Acme, Arial, Helvetica, sans-serif;
     padding: 35px;
 
 }
@@ -41,7 +41,7 @@ nav a:hover {
      background-color: rgb(188, 187, 243);
      color: rgb(31, 6, 139);
      text-decoration: none;
-     font-family: acme;
+     font-family: acme, Arial, Helvetica, sans-serif;
      font-size: 18px;
      padding: 15px 30px;
      margin-top: 50px;
@@ -58,7 +58,7 @@ nav a:hover {
 .msg {
     background-color: rgb(156, 124, 116);
     color: black;
-    font-family: hind;
+    font-family: hind, Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     padding: 35px;
     margin-top: 50px;
@@ -70,7 +70,7 @@ footer {
 }
 .home-title {
     color: cornflowerblue;
-    font-family: acme;
+    font-family: acme, Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -79,16 +79,16 @@ h1 {
 }
 h4 {
     color: rgb(87, 39, 150);
-    font-family: cinzel;
+    font-family: cinzel, Arial, Helvetica, sans-serif;
 }
 footer h3 {
     color: rgba(247, 242, 242, 0.938);
-    font-family: Hind;
+    font-family: Hind, Arial, Helvetica, sans-serif;
 }
 footer a {
     color: rgb(238, 160, 190);
     text-decoration: none;
-    font-family: acme;
+    font-family: acme, Arial, Helvetica, sans-serif;
     margin-top: 200px;
 }
 footer a:hover {
@@ -108,7 +108,7 @@ footer a:hover {
     font-family: Skranji;
 }
 h2 {
-    font-family: cinzel;
+    font-family: cinzel, Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     color: rgb(248, 246, 244);
 }
