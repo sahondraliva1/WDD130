@@ -7,7 +7,7 @@ nav a {
     text-align: center;
     color: rgb(236, 239, 241);
     text-decoration: none;
-    font-family: Acme, Arial, Helvetica, sans-serif;
+    font-family: Acme, abril Fatface, Hind Siliguri, Arial, Helvetica, sans-serif;
     padding: 35px;
 
 }
@@ -41,7 +41,7 @@ nav a:hover {
      background-color: rgb(188, 187, 243);
      color: rgb(31, 6, 139);
      text-decoration: none;
-     font-family: acme, Arial, Helvetica, sans-serif;
+     font-family: acme, abril Fatface, Hind Siliguri, Arial, Helvetica, sans-serif;
      font-size: 18px;
      padding: 15px 30px;
      margin-top: 50px;
@@ -58,7 +58,7 @@ nav a:hover {
 .msg {
     background-color: rgb(156, 124, 116);
     color: black;
-    font-family: hind, Arial, Helvetica, sans-serif;
+    font-family: Hind Siliguri, abril Fatface, acme, Arial, Helvetica, sans-serif;
     line-height: 1.5em;
     padding: 35px;
     margin-top: 50px;
@@ -70,7 +70,7 @@ footer {
 }
 .home-title {
     color: cornflowerblue;
-    font-family: acme, Arial, Helvetica, sans-serif;
+    font-family: acme, hind, abril Fatface, Hind Siliguri,Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -83,12 +83,12 @@ h4 {
 }
 footer h3 {
     color: rgba(247, 242, 242, 0.938);
-    font-family: Hind, Arial, Helvetica, sans-serif;
+    font-family:  Hind Siliguri, acme, abril Fatface, Arial, Helvetica, sans-serif;
 }
 footer a {
     color: rgb(238, 160, 190);
     text-decoration: none;
-    font-family: acme, Arial, Helvetica, sans-serif;
+    font-family: acme, abril Fatface, Hind Siliguri, Arial, Helvetica, sans-serif;
     margin-top: 200px;
 }
 footer a:hover {
@@ -105,10 +105,10 @@ footer a:hover {
     width: 100%;
 }
 .msg h2 {
-    font-family: Skranji;
+    font-family: Skranji, acme, abril Fatface, Hind Siliguri, Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
-    font-family: cinzel, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: cinzel, acme, abril Fatface, Hind Siliguri, Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     color: rgb(167, 87, 7);
 }
