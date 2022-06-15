@@ -204,108 +204,89 @@ nav {
 
 
 /* Page 2 */ 
-#rafting {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
-    margin-top: -100px;
- }
- #rafting-box {
-    grid-column: 1/5;
-    grid-row: 1/4;
-    z-index: -1;
-    flex-wrap: wrap;
- }
- .rafting-img {
-    width: 100%;
- }
- .joy {
-    grid-column: 4/5;
-    grid-row: 2/4;
-   float: right;
-    z-index: -1;
-    margin-top: -800;
- }
- .joy-img {
-  width: 75%;
- }
- .rapids-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
- }
- .text {
-    grid-column: 3/6;
-    grid-row: 1/2;
-    font-family: Hind Siliguri, cinzel, acme, abril Fatface, Arial, Helvetica, sans-serif; ;
- }
- .raft-grid {
+.rafting {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
- }
- .text{
-    grid-column: 2/4 ;
-    grid-row: 1/2;
-    justify-items: center;
-    justify-content: center;
- }
- .views h2 {
-    grid-column: 2/4;
-    grid-row: 2/3;
-    color: cornflowerblue;
-    font-family: Skranji, acme, abril Fatface, Hind Siliguri, Verdana, Geneva, Tahoma, sans-serif; ;
- }
- .colorado {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    width: 25%;
- }
- .evening {
-    grid-column: 2/3;
-    grid-row: 3/4;
-    width: 25%;
- }
-.raft58 {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    width: 25%;
+    max-width: 1600px;
 }
-.boats {
+.rafting-img{
+    grid-column: 1/5;
+    grid-row: 1/5;
+    flex-wrap: wrap;
+    z-index: -1;
+    width: 100%;
+    margin-top: -100px;
+}
+.joy-img {
     grid-column: 4/5;
-    grid-row: 3/4;
-    width: 25%;
-}
-.food h2{
-    grid-column: 2/4;
     grid-row: 4/5;
 }
-.lunch {
-    grid-column: 3/4;
-    grid-row: 5/6;
-}
-.kayak h2 {
-    grid-column: 2/4;
-    grid-row: 6/7;
-}
-.kayak3 {
-    grid-column: 1/5;
-    grid-row: 7/8;
-    flex-wrap: wrap;
-}
-.banner2 {
-    grid-column: 1/2;
-    grid-row: 7/8;
-    width: 25%;
-    float: left;
-    z-index: -1;
-}
-.banner1 {
-    grid-column: 4/5;
-    grid-row: 7/8;
-    width: 25%;
-    float: right;
-    z-index: -1;
-}
 
+.text {
+    text-align: center;
+    font-family: Skranji, acme, abril Fatface, Hind Siliguri, Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: Hind Siliguri, Skranji, acme, abril Fatface;
+}
+.view {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1600px;
+    grid-gap: 10px;
+}
+.colorado {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 300px;
+    height: 250px;
+}
+.evening {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 300px;
+    height: 250px;
+}
+.raft58 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 300px;
+    height: 250px;
+}
+.boasts {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    width: auto;
+    height: auto;
+}
+ .food {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+ .lunch {
+    grid-column: 2/3;
+ }
+.kayak {
+    display: grid;
+    max-width: 1600px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-self: center;
+}
+.raft55 {
+    grid-column: 1/4;
+    grid-row: 1/4;
+}
+.moulin {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 20%;
+}
+.riviere {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 20%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -346,6 +327,7 @@ nav {
     footer {
         margin-top: 25px;
     }
+    
 }
 
 
