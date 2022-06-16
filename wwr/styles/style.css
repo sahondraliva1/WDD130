@@ -204,89 +204,130 @@ nav {
 
 
 /* Page 2 */ 
-.rafting {
+
+#rafting {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr ;
+    margin-top: -100px;
     max-width: 1600px;
+    margin-bottom: 50px;
 }
-.rafting-img{
+.rafting-img {
+    width: 1350px;
     grid-column: 1/5;
     grid-row: 1/5;
-    flex-wrap: wrap;
     z-index: -1;
-    width: 100%;
-    margin-top: -100px;
+    max-width: 1600px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+ }
+    
+ .joy-img {
+    grid-column: 3/5;
+    grid-row: 3/5;
+    width: 500px;
+    height: 300px; ;
+     margin-top: 130px;
+     margin-left: 175px;
+ }
+ 
+ .rapids-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    max-width: 1600px;
+ }
+ .text {
+    grid-column: 3/6;
+    grid-row: 1/2;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 60px;
+    text-align: justify;
+    background-color:rgb(236, 207, 200) ;
+    font-family: acme, Skranji, abril Fatface, Hind Siliguri, cinzel, acme, Arial, Helvetica, sans-serif; ;
+ }
+
+ .views h2 {
+    grid-column: 3/6;
+    grid-row: 2/3;
+    margin: 50px;
+    font-family: Skranji, acme, abril Fatface, Hind Siliguri, Verdana, Geneva, Tahoma, sans-serif; ;
+ }
+ .colorado {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 20%;
+    margin-bottom: 30px;
+ }
+ .evening {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 20%;
+    margin-bottom: 30px;
+ }
+.raft58 {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    width: 20%;
+    height: 200px;
+    margin-bottom: 30px;
 }
-.joy-img {
-    grid-column: 4/5;
+.boats {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    width: 20%;
+    margin-bottom: 30px;
+}
+.food h2{
+    grid-column: 3/6;
     grid-row: 4/5;
+   margin-bottom: 20px;
+}
+.lunch {
+    grid-column: 2/7;
+    grid-row: 5/6;
+    width: 70%;
+    margin: 20px;
+}
+.kayak h2 {
+    grid-column: 3/6;
+    grid-row: 6/7;
+    margin: top 100px;
+}
+.kayak3 {
+    grid-column: 1/7;
+    grid-row: 7/8;
+    width: 80%;
+    height: 600px;
+    margin: 50px;
+}
+.banner2 {
+    grid-column: 1/2;
+    grid-row: 7/8;
+    width: 370px;
+    height: 150px;
+    margin-left: -80px;
+    margin-right: 190px;
+    margin-top: -205px;
+    margin-bottom: 200px;
+}
+.banner1 {
+    grid-column: 7/8;
+    grid-row: 7/8;
+    width: 335px;
+    height: 150px; 
+    margin-left: 180px;
+    margin-right: -80px; 
+    margin-top: -205px;
+    margin-bottom: 200px;   
+}
+main #background {
+    height: 200px;
+    background-color:rgb(236, 207, 200) ;
 }
 
-.text {
-    text-align: center;
-    font-family: Skranji, acme, abril Fatface, Hind Siliguri, Verdana, Geneva, Tahoma, sans-serif;
-}
-h2 {
-    text-align: center;
-    font-family: Hind Siliguri, Skranji, acme, abril Fatface;
-}
-.view {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 1600px;
-    grid-gap: 10px;
-}
-.colorado {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: 300px;
-    height: 250px;
-}
-.evening {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    width: 300px;
-    height: 250px;
-}
-.raft58 {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    width: 300px;
-    height: 250px;
-}
-.boasts {
-    grid-column: 4/5;
-    grid-row: 1/2;
-    width: auto;
-    height: auto;
-}
- .food {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
- }
- .lunch {
-    grid-column: 2/3;
- }
-.kayak {
-    display: grid;
-    max-width: 1600px;
-    grid-template-columns: 1fr 1fr 1fr ;
-    justify-self: center;
-}
-.raft55 {
-    grid-column: 1/4;
-    grid-row: 1/4;
-}
-.moulin {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    width: 20%;
-}
-.riviere {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    width: 20%;
-}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -327,7 +368,24 @@ h2 {
     footer {
         margin-top: 25px;
     }
-    
+    .rapids-grid {
+        display: block;
+        width: auto;
+    }
+    header, #rafting {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .views {
+        display: block;
+    }
+    .kayak {
+        display: block;
+    }
+    .food {
+        display: block;
+    }
 }
 
 
