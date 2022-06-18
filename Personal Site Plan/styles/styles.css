@@ -188,8 +188,9 @@ footer h3:hover {
     grid-row: 1/2;
     font-size: 15px;
     font-family: PT Sans, Varela Roun, Josefin Sans;
-    word-spacing: 5px;
-    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 400px;
     height: 400px;
     margin-right: 10px;
@@ -218,6 +219,8 @@ footer h3:hover {
     width: 400px;
     height: 400px;
     font-size: 20px; 
+    display: flex;
+    align-items: center;
     justify-content: center;
     font-family: Poppins, PT Sans, Varela Roun, Josefin Sans ;
 }   
@@ -244,12 +247,10 @@ footer h3:hover {
     width: 400px;
     height: 200px;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Poppins, PT Sans, Varela Roun, Josefin Sans ;
-}
-h1 {
-    align-self: center;
-    justify-self: center;
-    text-align: justify;
 }
 .see a {
     grid-column: 2/3;
@@ -305,9 +306,12 @@ h1 {
     grid-row: 1/2;
     width: 400px;
     height: 400px;
-    font-size: 15px;
-    justify-self: center;
-     align-self: center;
+    font-size: 13px;
+    text-align: justify;
+    font-family:Poppins, PT Sans, Varela Roun, Josefin Sans  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .bride2 {
     grid-column: 3/4;
@@ -343,7 +347,12 @@ h1 {
     grid-row: 1/2;
     width: 400px;
     height: 400px;
-    font-size: 15px;
+    font-size: 13px;
+    text-align: justify;
+    font-family:Poppins, PT Sans, Varela Roun, Josefin Sans  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ord2 {
