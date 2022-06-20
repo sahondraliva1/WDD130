@@ -214,7 +214,7 @@ nav {
     margin-bottom: 50px;
 }
 .rafting-img {
-    width: 1350px;
+    width: 100%;
     grid-column: 1/5;
     grid-row: 1/5;
     z-index: -1;
@@ -228,8 +228,8 @@ nav {
     grid-row: 3/5;
     width: 500px;
     height: 300px; ;
-     margin-top: 130px;
-     margin-left: 175px;
+     margin-top: 185px;
+     margin-left: 250px;
  }
  
  .rapids-grid {
