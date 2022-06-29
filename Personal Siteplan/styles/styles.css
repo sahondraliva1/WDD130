@@ -61,13 +61,13 @@ header {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 500px;
-    height: 400px;
+    height: 500px;
 }
 .roads p {
     grid-column: 2/3;
     grid-row: 1/2;
     width: 200px;
-    height: 400px;
+    height: 500px;
     text-align:justify;
     align-self:center;
     justify-self: center;
@@ -78,7 +78,7 @@ header {
     grid-column: 3/4;
     grid-row: 1/2;
     width: 500px;
-    height: 400px;
+    height: 500px;
 }
 .pitch {
     display: grid;
@@ -93,9 +93,9 @@ header {
     width: 1300px;
     height: 250px;
     text-align:justify;
-
     line-height: 30px;
-
+    align-content: center;
+    justify-content: center;
 }
 p {
     padding-top: 20px;
