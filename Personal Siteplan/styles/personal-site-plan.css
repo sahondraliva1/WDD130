@@ -4,7 +4,7 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=PT+Sans&family=Poppins:wght@200&family=Tiro+Telugu&family=Varela+Round&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* change the values below to your colors from your palette 05045a-093c88-1063df-edf5f4-9795e9-cc798b-08b2c9*/
   --primary-color: #05045a;
   --secondary-color: #093c88;
   --accent1-color: #1063df;
