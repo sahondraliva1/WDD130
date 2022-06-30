@@ -37,6 +37,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color:#08b2c9;
+    
 }
 
 
@@ -132,7 +133,7 @@ p {
     height: 200px;
     position: relative;
     text-decoration: none;
-    color: #1063df;
+    color: #edf5f4;
     font-size: 15px;
     background-color: #093c88;
     padding: 25px;
@@ -356,6 +357,7 @@ p {
     width: 300px;
     height: 250px;
     text-align: center;
+    font-size: 20px;
     padding: 30px;
     background-color: #05045a;
     color: #edf5f4;
