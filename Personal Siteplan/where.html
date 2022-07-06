@@ -6,6 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal site| My Destination | Where</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        
+        nav a {
+        background-color: #093c88;
+        }
+         .dropdown {
+           float: left;
+           overflow: hidden;
+         }
+         
+         .dropdown .dropbtn {
+           font-size: 20px;  
+           border: none;
+           outline: none;
+           color: #1063df;
+           padding: 14px 16px;
+           background-color: #093c88;
+           font-family: inherit;
+           margin: 0;
+         }
+         .dropdown {
+           background-color: #08b2c9;
+         }
+
+         .navbar a:hover, .dropdown:hover .dropbtn {
+           background-color: #f9f9f9;
+         }
+         
+         .dropdown-content {
+           display: none;
+           position: absolute;
+           min-width: 160px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+         }
+         
+         .dropdown-content a {
+           float: none;
+           color: #1063df;
+           padding: 12px 16px;
+           text-decoration: none;
+           display: block;
+           text-align: left;
+           background-color: #08b2c9;
+         }
+         
+         .dropdown-content a:hover {
+           background-color: #f9f9f9;
+         }
+         
+         .dropdown:hover .dropdown-content {
+           display: block;
+         }
+   </style>
 </head>
 <body>
     <div id="content">
@@ -13,12 +67,22 @@
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/logo.png" alt="logo.png">
         </a>
-        <nav>
+         <nav>
             <a href="home.html">Home</a>
-            <a href="where.html">Where</a>
+            <div class="dropdown">
+                <button class="dropbtn">Where 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Madagascar</a>
+                  <a href="#">America</a>
+                  <a href="#">Europe</a>
+                  <a href="#">Asia</a>
+                  <a href="#">Oceania</a>
+                </div>
             <a href="events.html">Events</a>
             <a href="personal-site-plan.html">Site Plan</a>
-        </nav>
+            </nav>
     </header>
     <main>
     <div id="go">
